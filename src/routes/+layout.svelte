@@ -4,7 +4,7 @@
 </script>
 
 <ModeWatcher />
-<div class="relative mx-auto min-h-screen max-w-4xl p-10">
+<div class="relative mx-auto min-h-screen max-w-4xl">
 	<slot></slot>
 
 	<div class="h-32" />

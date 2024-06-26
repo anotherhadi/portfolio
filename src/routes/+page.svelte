@@ -21,7 +21,7 @@
 	/>
 </svelte:head>
 
-<header class="mb-2 mt-10 flex flex-col gap-4">
+<header class="mb-2 mt-10 flex flex-col gap-4 p-10">
 	<Avatar.Root class="lg:h-16 lg:w-16">
 		<Avatar.Image src="https://github.com/anotherhadi.png" alt="@anotherhadi" />
 		<Avatar.Fallback>Hadi</Avatar.Fallback>
@@ -83,21 +83,24 @@
 	<Separator class="my-4" />
 </header>
 
-<Tabs.Root value="about">
-	<Tabs.List class="mb-4">
-		<Tabs.Trigger value="about">About Me</Tabs.Trigger>
-		<Tabs.Trigger value="projects">Projects</Tabs.Trigger>
-		<Tabs.Trigger value="contact">Contact</Tabs.Trigger>
-	</Tabs.List>
-	<Tabs.Content value="about">
-		<Slide>
-			<About />
-		</Slide>
-	</Tabs.Content>
-	<Tabs.Content value="projects">
-		<Projects />
-	</Tabs.Content>
-	<Tabs.Content value="contact">
-		<Contact />
-	</Tabs.Content>
-</Tabs.Root>
+<div class="p-10">
+	<h3 class="mb-4 text-2xl font-bold">Portfolio</h3>
+	<Tabs.Root value="about">
+		<Tabs.List class="mb-4">
+			<Tabs.Trigger value="about">About Me</Tabs.Trigger>
+			<Tabs.Trigger value="projects">Projects</Tabs.Trigger>
+			<Tabs.Trigger value="contact">Contact</Tabs.Trigger>
+		</Tabs.List>
+		<Tabs.Content value="about">
+			<Slide>
+				<About />
+			</Slide>
+		</Tabs.Content>
+		<Tabs.Content value="projects">
+			<Projects />
+		</Tabs.Content>
+		<Tabs.Content value="contact">
+			<Contact />
+		</Tabs.Content>
+	</Tabs.Root>
+</div>

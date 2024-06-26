@@ -29,23 +29,30 @@
 			title: 'Nixy',
 			description:
 				'NixOs dotfiles for a desktop environment. It includes a lot of packages and configurations w/hyprland, home-manager and more.',
-			logo: 'https://image.nostr.build/70ebe2b5183879d8c0ffa682cd0089e030ad01909678b242ed86449517eac3a5.png',
+			logo: 'https://github.com/anotherhadi/nixy/blob/main/docs/src/logo.png?raw=true',
 			images: [
-				'https://image.nostr.build/c208c164ae04e4c58e01adb9fab584b163a565155865833851275f89c9270b7a.jpg',
-				'https://image.nostr.build/c208c164ae04e4c58e01adb9fab584b163a565155865833851275f89c9270b7a.jpg'
+				'https://github.com/anotherhadi/nixy/blob/main/docs/src/catppuccin/1.png?raw=true',
+				'https://github.com/anotherhadi/nixy/blob/main/docs/src/catppuccin/2.png?raw=true',
+				'https://github.com/anotherhadi/nixy/blob/main/docs/src/catppuccin/3.png?raw=true'
 			],
 			githubRepo: 'anotherhadi/nixy',
 			tags: ['nixos', 'desktop', 'hyprland', 'home-manager']
 		},
 		{
 			title: 'Portfolio',
+			logo: 'https://github.com/anotherhadi/portfolio/blob/main/docs/src/logo.png?raw=true',
 			description:
 				'My portfolio (the one you are currently on) is a static site built with SvelteKit and TailwindCSS. It showcases my projects, blog posts and more.',
+			images: ['https://github.com/anotherhadi/portfolio/blob/main/docs/src/image.png?raw=true'],
 			githubRepo: 'anotherhadi/portfolio',
 			tags: ['portfolio', 'sveltekit', 'tailwindcss', 'shadcn/ui']
 		},
 		{
 			title: 'Homepage',
+			logo: 'https://github.com/anotherhadi/homepage/blob/main/docs/src/logo.png?raw=true',
+			images: [
+				'https://github.com/anotherhadi/homepage/blob/main/docs/src/screenshot.png?raw=true'
+			],
 			description:
 				'My homepage is a static site built with SvelteKit and TailwindCSS. It allows you to add your own links and customize the theme of your start page.',
 			githubRepo: 'anotherhadi/homepage',
@@ -53,6 +60,7 @@
 		},
 		{
 			title: 'Hyprsettings',
+			images: ['https://github.com/anotherhadi/hyprsettings/raw/main/src/hyprsettings.gif'],
 			description:
 				'The hyprlandsettings utility is a powerful tool designed for modifying settings within the Hyprland Window Manager (WM) through a Text User Interface (TUI).',
 			githubRepo: 'anotherhadi/hyprsettings',
