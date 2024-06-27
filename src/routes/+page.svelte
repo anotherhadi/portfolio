@@ -21,7 +21,7 @@
 	/>
 </svelte:head>
 
-<header class="mb-2 mt-10 flex flex-col gap-4 p-10">
+<header class="mb-2 mt-10 flex flex-col gap-4 px-10">
 	<Avatar.Root class="lg:h-16 lg:w-16">
 		<Avatar.Image src="https://github.com/anotherhadi.png" alt="@anotherhadi" />
 		<Avatar.Fallback>Hadi</Avatar.Fallback>
@@ -80,10 +80,10 @@
 		</Tooltip.Root>
 	</div>
 
-	<Separator class="md:my-4 my-1" />
+	<Separator class="md:my-4 my-2" />
 </header>
 
-<div class="p-10">
+<div class="px-10 mb-2">
 	<Tabs.Root value="about">
 		<Tabs.List class="mb-4">
 			<Tabs.Trigger value="about">About Me</Tabs.Trigger>
