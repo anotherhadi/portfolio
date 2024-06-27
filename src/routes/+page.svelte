@@ -28,7 +28,7 @@
 	</Avatar.Root>
 
 	<h2 class="mb-2 scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">Another Hadi</h2>
-	<p class="max-w-xl text-sm font-medium leading-none text-muted-foreground">
+	<p class="max-w-xl md:test-lg text-md font-medium leading-none text-muted-foreground">
 		French developer enthusiastic about bash, golang, infosec & blockchains. I deeply value
 		open-source projects & actively seek ways to contribute to the community
 	</p>
@@ -80,11 +80,10 @@
 		</Tooltip.Root>
 	</div>
 
-	<Separator class="my-4" />
+	<Separator class="md:my-4 my-1" />
 </header>
 
 <div class="p-10">
-	<h3 class="mb-4 text-2xl font-bold">Portfolio</h3>
 	<Tabs.Root value="about">
 		<Tabs.List class="mb-4">
 			<Tabs.Trigger value="about">About Me</Tabs.Trigger>

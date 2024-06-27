@@ -24,6 +24,12 @@
 		return data.stargazers_count;
 	}
 
+	async function getDescription(githubRepo: string): Promise<string> {
+		const response = await fetch(`https://api.github.com/repos/${githubRepo}`);
+		const data = await response.json();
+		return data.description;
+	}
+
 	let projects: Project[] = [
 		{
 			title: 'Nixy',
@@ -72,6 +78,9 @@
 		for (let i = 0; i < projects.length; i++) {
 			getStars(projects[i].githubRepo).then((stars) => {
 				projects[i].stars = stars;
+			});
+			getDescription(projects[i].githubRepo).then((description) => {
+				projects[i].description = description;
 			});
 		}
 	});
