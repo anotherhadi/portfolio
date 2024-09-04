@@ -29,7 +29,7 @@
 
 	<h2 class="mb-2 scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">Another Hadi</h2>
 	<p class="max-w-xl md:test-lg text-md font-medium leading-none text-muted-foreground">
-		French developer enthusiastic about bash, golang, infosec & blockchains. I deeply value
+		French developer enthusiastic about nixos, golang, infosec & blockchains. I deeply value
 		open-source projects & actively seek ways to contribute to the community
 	</p>
 
