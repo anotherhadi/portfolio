@@ -27,11 +27,11 @@ Url/Demo: [hadi.diy](https://hadi.diy)
 
 My portfolio is a static site built with SvelteKit and TailwindCSS. It showcases my projects, blog posts and more.
 
-## Screenshot:
+## Screenshot
 
-![Image](./docs/src/image.png)
+![Image](./static/image.png)
 
-## Installation:
+## Installation
 
 ### Npm
 
@@ -43,7 +43,3 @@ npm run build
 ```
 
 The website content is on the `build` folder
-
-### Nix
-
-Todo
